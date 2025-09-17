@@ -1,15 +1,26 @@
-* {
-    border: 1px solid red
-}
 
 .post {
     display: flex;
     justify-content: center;
     flex-direction: column;
     width: 25em;
-
+    margin: 0 auto;
+    border: 1px solid black;
 }
-.post-header {
-    display: flex;
+.iconoelipsis, .icohtml5, .igrigoberto {
+    margin: 0;
     
+}
+.post-header, .nav, .post-body {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    
+}
+.post-img { border: 1px solid black;}
+.ico, .ico2 { font-size: 25px;
+margin-top: 3px;
+}
+.footer{
+    margin-left: 3px;
 }
